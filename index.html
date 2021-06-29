@@ -2,199 +2,477 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style/style.css">
-  <title>Bootstrap уроки</title>
+    <meta charset="utf-8">
+    <title>Bootstrap уроки</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style_1.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 
+
+
 <body>
-
-  <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <h2>Bootstrap</h2>
-      </div>
-      <div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Главная<a< /li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Обратная связь</a></li>
-        </ul>
-      </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Навигация</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://yandex.ru/" target="_blank" >
+                        <p class="font-weight-bold">VIKTOR</p>
+                    </a>
+                </div>
+
+
+
+                <!--Верхняя часть-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Мои Проекты
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://ukx2nst.com/">
+                                <p class="text-center">НСТ УКХ №2</p>
+                            </a>
+                            <hr>
+                            <a class=" dropdown-item" href="https://spravkahtmlcss.netlify.app/" target="_blank">
+                                <p class="text-center">HTML CSS</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://github.com/vitek74" target="_blank">
+                                <p class="text-center">GitHub репозиторий</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://vitek74.github.io/sad5/" target="_blank">
+                                <p class="text-center">НСТ №5</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://vitek74.github.io/new.UKX_2.github.io/" target="_blank">
+                                <p class="text-center">New УКХ
+                                    №2</p>
+                            </a>
+                            <br>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Сайты
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.yaplakal.com/forum36/" target="_blank">
+                                <p class="text-center">ЯПлакаль </p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://habr.com/ru/" target="_blank">
+                                <p class="text-center">Хабр</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://rutracker.org/forum/index.php"target="_blank" >
+                                <p class="text-center">РуТрекер</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://pikabu.ru/community/books" target="_blank">
+                                <p class="text-center">Пикабу</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://4pda.to/forum/index.php?act=idx" target="_blank">
+                                <p class="text-center">4PDA</p>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item" href="https://www.reddit.com/subreddits/leaderboard/learning/" target="_blank" >
+                                <p class="text-center">Reddit</p>
+                            </a>
+                            <hr>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www.linux.org.ru/" target="_blank">
+                                <p class="text-center">Linux.org</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Интернет магазины
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item"
+                                href="https://aliexpress.ru/?spm=a2g0o.detail.1000002.1.207f46c9F7RTBb" target="_blank">
+                                <p class="text-center">Алиэкспресс</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.avito.ru/kovrov" target="_blank">
+                                <p class="text-center">Авито</p>
+                            </a>
+                            <a class="dropdown-item" href="https://youla.ru/kovrov" target="_blank">
+                                <p class="text-center">Юла</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.citilink.ru/" target="_blank">
+                                <p class="text-center">Ситилинк</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.dns-shop.ru/" target="_blank">
+                                <p class="text-center">DNS</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.ozon.ru/" target="_blank">
+                                <p class="text-center">Ozon</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.vseinstrumenti.ru/" target="_blank">
+                                <p class="text-center">Все Инструменты</p>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Почта. Соц.сети
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://e.mail.ru/inbox/?back=1"target="_blank" >
+                                <p class="text-center">Mail.ru</p>
+                            </a>
+                            <a class="dropdown-item" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                                <p class="text-center">GMail</p>
+                            </a>
+                            <a class="dropdown-item" href="https://mail.yandex.ru/?uid=1139080453#inbox" target="_blank">
+                                <p class="text-center">Яндекс Почта</p>
+                            </a>
+                            <a class="dropdown-item" href="https://ok.ru/" target="_blank">
+                                <p class="text-center">Однакласники</p>
+                            </a>
+                            <a class="dropdown-item" href="https://vk.com/feed" target="_blank">
+                                <p class="text-center">ВКонтакте</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Youtube
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.youtube.com/hashtag/goshabootstrap" target="_blank">
+                                <p class="text-center">Bootstrap Гоша Дударь</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.youtube.com/hashtag/goshasql" target="_blank">
+                                <p class="text-center">SQL Гоша Дударь</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=qXJ2S0GBa7M&list=PLhgRAQ8BwWFaQWBzj-8W7qmfThCjYw2bJ" target="_blank">
+                                <p class="text-center">Установка СУБД</p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=Xktc0yHdQYw" target="_blank">
+                                <p class="text-center">Курс SQL Базы данных ORACLE </p>
+                            </a>
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=afac7V6c5Hw" target="_blank">
+                                <p class="text-center">Установка СУБД MySQL </p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#"target="_blank" >
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <!-- Кнопка -->
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Всякая всячина
+                            <span class="caret"></span> </button>
+                        <!-- Меню -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                            <a class="dropdown-item" href="#" target="_blank">
+                                <p class="text-center"></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Меню поиска
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Поиск">
+                    </div>
+                    <button type="submit" class="btn btn-default">Отправить</button>
+                </form>
+                                      -->
+
+            </div>
+
+
+        </nav>
+
+
+        <!--Основное меню-->
+        <div class="row-flex">
+
+            <!--Колонка №1-->
+            <!--HTML-->
+            <div class="col-md-4 btn-group dropup" style="background-color: #FFFF00;">
+                </style>
+                <img src="image/html.jpg" class="img-thumbnail" alt="Responsive image">
+
+                <!--Стиль кнопки-->
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--CSS-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #FFFF00;">
+                </style> <img src="image/css.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент1 <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--Bootstrap-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #FFFF00;">
+                </style> <img src="image/boot.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Колонка №2-->
+        <div class="row-flex">
+
+            <!--SQL-->
+            <div class="col-md-4 btn-group dropup " style="background-color: #4169E1;">
+                </style> <img src="image/sql.png" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://okiseleva.blogspot.com/2012/01/sql-join-it.html" target="_blank">
+                        <p class="text-center"> Запросы к БД</p>
+                    </a>
+                    <a class="dropdown-item" href="https://okiseleva.blogspot.com/2017/03/sql.html" target="_blank">
+                        <p class="text-center">Полезные запросы</p>
+                    </a>
+                    <a class="dropdown-item" href="http://okiseleva.blogspot.com/2017/06/sql.html" target="_blank">
+                        <p class="text-center">Задачка по SQL</p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#"target="_blank" >
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#"target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--PHP-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #4169E1;">
+                </style> <img src="image/php.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--JavaScript-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #4169E1;">
+                </style> <img src="image/js.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Контент <span
+                        class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--Колонка №3-->
+        <div class="row-flex">
+            <!--Kindle-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #7B68EE;">
+                </style> <img src="image/kindle.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-primary" data-toggle="dropdown">Контент <span class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--VC-->
+            <div class="col-md-4  btn-group dropup" style="background-color: #7B68EE;">
+                </style> <img src="image/vc.jpg" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-primary" data-toggle="dropdown">Контент <span class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+            <!--Habr-->
+            <div class="col-md-4 btn-group dropup" style="background-color: #7B68EE;">
+                </style>
+                <img src="image/habr.png" class="img-thumbnail" alt="Responsive image">
+                <button class="btn btn-primary" data-toggle="dropdown">Контент <span class="caret"></span></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://habr.com/ru/post/555760/" target="_blank">
+                        <p class="text-center">База Данных</p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                    <a class="dropdown-item" href="#" target="_blank">
+                        <p class="text-center"></p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
 
     </div>
-  </nav>
-  
-
-  <div class="row-flex">
-    <div class="col-md-4" style="background-color: #FFFFFF;">1Всё что связано с изучением SQL и баз даных, ссылки на уроки статьи и другая информация.
-      <hr>
-      <a href="https://zen.yandex.ru/media/id/5eba7f439f339d116671be06/osnovnye-komandy-sql-kotorye-doljen-znat-kajdyi-programmist-5f3fac20b7d0fb2734f1df9b">
-          Основные команды SQL</a>
-      <hr>
-      <a href="https://youtu.be/BfaKBs_eQXw">Гоша Дударь "Уроки SQL для начинающих"</a>
-      <hr>
-      <a href="https://habr.com/ru/post/555760/">Что такое база данных</a>
-      <hr>
-      <a href="https://habr.com/ru/post/555760/">Как изучить основы SQL за 2 дня</a>
-      <hr>
-      <a href="https://okiseleva.blogspot.com/2012/01/sql-join-it.html">SQL - join it! Запросы к
-          БД</a>
-      <hr>
-      <a href="https://okiseleva.blogspot.com/2017/03/sql.html">SQL. Полезные запросы</a>
-      <hr>
-      <a href="https://www.sql-ex.ru/">Практическое владение языком SQL</a>
-      <hr>
-      <a href="https://okiseleva.blogspot.com/2021/05/sql.html">Ресурсы и инструменты для практики с
-          базами данных | SQL (видео)</a>
-      <hr>
-      <a href="http://okiseleva.blogspot.com/2017/06/sql.html">Задачка по SQL. Найти объединенные
-          данные</a>
-      <hr>
-      <a href="https://youtu.be/qXJ2S0GBa7M">Основы баз данных</a>
-      <hr>
-      <a href="https://youtu.be/Xktc0yHdQYw">Курс SQL Базы данных ORACLE. Илья Хохлов</a>
-      <hr>
-      <a href="https://youtu.be/afac7V6c5Hw">Скачивание и установка СУБД MySQL </a>
-      <hr>
-      <a href="https://youtu.be/pmkBZmgkdss">Базы данных. Практическая задача</a>
-      <hr>
-      <a href="https://www.heidisql.com/"> Приложение для управления базами данных</a>
-      <hr>
-      <a href=""></a>
-      <hr>
-      <a href=""></a>
-      <hr>
-    </div>
-    <div class="col-md-4" style="background-color: #DCDCDC">2 Справочная информация, учебные ресурсы.
-      <hr>
-
-      <a href="https://www.w3schools.com/">W3SCHOOLS -Справочная инфориация</a>
-      <hr>
-      <a href="https://htmlbase.ru/">Самый современный справочник по HTML и CSS.</a>
-      <hr>
-      <a href="https://dbmast.ru/about">Блог HTML CSS</a>
-      <hr>
-      <a href="http://htmlbook.ru/CSS/overflow">Справочник HTML CSS</a>
-      <hr>
-      <a href="https://puzzleweb.ru/">Самоучитель и справочник по HTML, CSS</a>
-      <hr>
-      <a href="https://css-tricks.com/">Блог, статьи по Веб-разработки</a>
-      <hr>
-      <a href="https://htmlweb.ru/html/symbols.php">Специальные символы HTML</a>
-      <hr>
-      <a href="https://dailycoding.io/article/a9gHD0oBOKoI87SGL24e">Выбор CSS макета — Grid
-          или Flexbox?</a>
-      <hr>
-      <a href="http://ui-cloud.com/">Самая большая база данных по дизайну пользовательского
-          интерфейса </a>
-      <hr>
-      <a href="https://puzzleweb.ru/">Самоучитель и справочник по HTML, CSS, JavaScript и
-          PHP</a>
-      <hr>
-      <a href="https://nisnom.com/veb-razrabotki/krasivaya-css-animatsiya-dlya-fona-background-ssylok-menyu/#more-2454">Сборник
-          HTML, CSS, JavaScript/jQuery компонентов</a>
-      <hr>
-      <a href="https://css-tricks.com/examples/ButtonMaker/#">Производитель кнопок</a>
-      <hr>
-      <a href="http://csstemplater.com/">Генератор шаблонов</a>
-      <hr>
-      <a href="https://grid.layoutit.com/">Генератор интерактивных таблиц</a>
-      <hr>
-      <a href="https://csscreator.com/version2/pagelayout.php">Генератор макетов CSS</a>
-      <hr>
-      <a href="https://www.svgwaves.io/">Мгновенный геератор волны</a>
-      <hr>
-      <a href="https://uncss-online.com/">UnCSS Online</a>
-      <hr>
-      <a href="http://qrcoder.ru/?t=l">Генератор QR-кодов </a>
-      <hr>
-      <a href="https://www.sessions.edu/color-calculator/">Калькулятор цвета</a>
-      <hr>
-      <a href="https://colorscheme.ru/html-colors.html">ТАБЛИЦА HTML ЦВЕТОВ</a>
-      <hr>
-      <a href="https://htmlweb.ru/service/">Сервисы, WEB-сервисы, online-service</a>
-      <hr>
-      <a href="http://jigsaw.w3.org/css-validator/#validate_by_upload"> CSS Validation
-          Service</a>
-      <hr>
-      <a href="https://search.google.com/test/mobile-friendly?id=dv8NnoGJaPRWqqigtFL2Gw">Проверка
-          оптимизации для мобильных</a>
-      <hr>
-      <a href="https://basicweb.ru/css/flexbox_generator.php">Генератор Flexbox верстки</a>
-      <hr>
-      <a href="https://graphite.space/"> конструктор сайтов с интуитивно понятным интерфейсом
-      </a>
-      <hr>
-      <a href="https://getbootstrap.com/">Открытый и бесплатный фреймворк HTML, CSS и JS</a>
-      <hr>
-      <a href="https://teleporthq.io/">Профессиональный конструктор сайтов для разработчиков</a>
-      <hr>
-      <a href=""></a>
-      <hr>
-      <a href=""></a>
-      <hr>
-      <a href=""></a>
-      <hr>
-</div>
 
 
-    <div class="col-md-4" style="background-color: #FFE4E1">3Хабрахабр
-      <hr>
-  </h2>
-  <a href="https://habr.com/ru/post/314034/">Верстаем новостной сайт с помощью Flexbox</a>
-  <hr>
-  <a href="https://habr.com/ru/post/242623/">Brackets для сомневающихся и новичков</a>
-  <hr>
-  <a href="https://habr.com/ru/post/214407/">Как использовать секционные элементы HTML5</a>
-  <hr>
-  <a href="https://habr.com/ru/company/ruvds/blog/350758/">Работа с Bootstrap</a>
-  <hr>
-  <a href=""></a>
-  <hr>
-  <a href=""></a>
-  <hr>
-  <a href=""></a>
-  <hr></div>
-
-
-
-  </div>
-
-  <div class="col-xs-12 col-sm-9 col-md-4 col-lg-6" style="background-color: tomato;">
-    4
-    <div class="row">
-      <div class="col-lg-6" style="background-color: seagreen;">4.1</div>
-      <div class="col-lg-6" style="background-color: darkmagenta;">4.2</div>
-
-    </div>
-
-  </div>
-
-  <div class="col-xs-12 col-sm-3 col-md-8 col-lg-6" style="background-color: navy; color: oldlace;">5
-    <div class="row">
-    <div class="col-lg-6" style="background-color: seagreen;">5.1</div>
-    <div class="col-lg-6" style="background-color: darkmagenta;">5.2</div>
-  </div>
-  </div>
-
-
-  </div>
-
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
